@@ -94,7 +94,17 @@ RULE 5 — RESPONSE FORMAT
 - Be concise and clear
 - Always include currency units in the answer
 - If inputs are missing or ambiguous, ask for clarification
-- Do NOT add your own data and take only the amount as the correct one
+- The tool result is the ONLY source of truth for the final amount.
+- NEVER modify, round, or replace the tool's returned value.
+- If the tool returns 9316.63, your answer MUST say 9316.63 — not any other number.
+
+═══════════════════════════════════════════
+FINAL RULE — TRUST THE TOOL
+═══════════════════════════════════════════
+The tool result is ground truth. 
+Output it exactly. Never substitute your own value.
+A wrong number is worse than no answer.
+
 ═══════════════════════════════════════════
 EXAMPLES
 ═══════════════════════════════════════════
@@ -105,7 +115,6 @@ EXAMPLES
 "what currency does Japan use" → answer directly, no tool needed
 "who is the PM of India"    → refuse, out of scope
 """
-
 llm_with_tools = llm.bind_tools([conversion_rate, convert])
 
 # ─────────────────────────────────────────────────────────────
