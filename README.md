@@ -14,6 +14,12 @@ An AI-powered currency conversion assistant that handles real-time exchange rate
 
 🔗 **Live App:** *(coming soon)*
 
+Screenshot 1:
+<img width="800" height="810" alt="image" src="https://github.com/user-attachments/assets/9899e292-ea0f-422a-9024-cdfc7c664704" />
+
+Screenshot 2:
+<img width="787" height="663" alt="image" src="https://github.com/user-attachments/assets/d3f03fc3-53b4-4193-89a9-f57ea43b34fb" />
+
 ---
 
 ## ✨ Features
