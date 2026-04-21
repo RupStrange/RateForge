@@ -3,9 +3,9 @@
 An AI-powered currency conversion assistant that handles real-time exchange rates and conversions through natural language — powered by LLaMA 4 Scout via Groq inference.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red?style=flat-square&logo=streamlit)
-![LangChain](https://img.shields.io/badge/LangChain-0.x-green?style=flat-square)
-![Model](https://img.shields.io/badge/Model-LLaMA--4--Scout-purple?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.40+-red?style=flat-square&logo=streamlit)
+![LangChain](https://img.shields.io/badge/LangChain-0.3+-green?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-LLaMA--4--Scout-black?style=flat-square)
 ![API](https://img.shields.io/badge/Rates-ExchangeRate--API-orange?style=flat-square)
 
 ---
