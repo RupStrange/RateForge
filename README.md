@@ -12,7 +12,7 @@ An AI-powered currency conversion assistant that handles real-time exchange rate
 
 ## 🚀 Demo
 
-🔗 **Live App:** *(coming soon)*
+🔗 **Live App:** https://rateforge-rupstrange-app.streamlit.app/
 
 Screenshot 1:
 <img width="800" height="810" alt="image" src="https://github.com/user-attachments/assets/9899e292-ea0f-422a-9024-cdfc7c664704" />
