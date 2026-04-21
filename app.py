@@ -94,8 +94,7 @@ RULE 5 — RESPONSE FORMAT
 - Be concise and clear
 - Always include currency units in the answer
 - If inputs are missing or ambiguous, ask for clarification
-- Do NOT add preamble or clarification before the tool result.
-  Just return the final answer with the converted value.
+- Do NOT add your own data and take only the amount as the correct one
 ═══════════════════════════════════════════
 EXAMPLES
 ═══════════════════════════════════════════
@@ -106,6 +105,7 @@ EXAMPLES
 "what currency does Japan use" → answer directly, no tool needed
 "who is the PM of India"    → refuse, out of scope
 """
+
 llm_with_tools = llm.bind_tools([conversion_rate, convert])
 
 # ─────────────────────────────────────────────────────────────
